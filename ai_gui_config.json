@@ -1,0 +1,31 @@
+{
+  "provider": "google",
+  "api_key": "AIzaSyCeWd_yVFCqw3q6HAn73Uvf4V9PUvciJiQ",
+  "model": "gemini-2.0-flash",
+  "theme": "dark",
+  "hotkey": "ctrl+b",
+  "tesseract_path": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+  "screenshot_dir": "C:\\Users\\Service\\Desktop\\gpty\\screenshot_temp",
+  "providers": {
+    "openai": {
+      "base_url": "https://api.openai.com/v1"
+    },
+    "deepseek": {
+      "base_url": "https://api.deepseek.com"
+    },
+    "google": {
+      "region": "",
+      "project_id": ""
+    },
+    "groq": {
+      "base_url": "https://api.groq.com/openai/v1"
+    },
+    "together": {
+      "base_url": "https://api.together.ai"
+    },
+    "custom": {
+      "base_url": "",
+      "auth_header_name": "Authorization"
+    }
+  }
+}
